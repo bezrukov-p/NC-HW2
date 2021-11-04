@@ -9,7 +9,7 @@ package com.NCCourses.Exercises.Chapter2;
 //methods so that they return new points with the results. For example,
 //Point p = new Point(3, 4).translate(1, 3).scale(0.5);
 //should set p to a point with coordinates (2, 3.5).
-public class Point {
+public final class Point {
     final private double x;
     final private double y;
 
