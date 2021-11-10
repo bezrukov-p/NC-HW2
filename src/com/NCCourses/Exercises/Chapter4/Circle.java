@@ -2,8 +2,8 @@ package com.NCCourses.Exercises.Chapter4;
 
 import com.NCCourses.Exercises.Chapter2.Point;
 
-public class Circle extends Shape{
-    double radius;
+public class Circle extends Shape implements Cloneable {
+    private double radius;
 
     public Circle(Point point, double radius) {
         super(point);
@@ -11,12 +11,20 @@ public class Circle extends Shape{
     }
 
     @Override
-    public Circle clone(){
-        return new Circle(point, radius);
+    public Circle clone() throws CloneNotSupportedException {
+        return (Circle) super.clone();
     }
 
     @Override
     public Point getCenter() {
-        return new Point(point.getX(), point.getY());
+        return point;
+    }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", point=" + point +
+                '}';
     }
 }

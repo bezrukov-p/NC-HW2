@@ -11,10 +11,10 @@ import com.NCCourses.Exercises.Chapter2.Point;
 //double height), and public Line(Point from, Point to).
 //5. Define clone methods for the classes of the preceding exercise.
 public abstract class Shape {
-    Point point;
+    protected Point point;
 
     public Shape(Point point) {
-        this.point = new Point(point.getX(), point.getY());
+        this.point = point;
     }
 
     public void moveBy(double dx, double dy){

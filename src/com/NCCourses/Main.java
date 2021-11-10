@@ -5,8 +5,8 @@ import com.NCCourses.Exercises.Chapter3.Measurable;
 import com.NCCourses.Exercises.other.Test;
 
 public class Main {
-    public static void main(String[] args) {
-        //Test.test();
+    public static void main(String[] args){
+        Test.test();
 
         Employee[] employees = new Employee[3];
         employees[0] = new Employee(1, "1", 100);

@@ -5,6 +5,8 @@ import com.NCCourses.Exercises.Chapter2.Car;
 import com.NCCourses.Exercises.Chapter2.Point;
 import com.NCCourses.Exercises.Chapter3.Employee;
 import com.NCCourses.Exercises.Chapter3.Measurable;
+import com.NCCourses.Exercises.Chapter4.Circle;
+import com.NCCourses.Exercises.Chapter4.Line;
 
 public class Test {
     public static void test(){
@@ -33,5 +35,8 @@ public class Test {
         arr[2] = new Employee(3, "3", 300);
 
         System.out.println(Measurable.average(arr));
+
+        //chapter 4
+
     }
 }

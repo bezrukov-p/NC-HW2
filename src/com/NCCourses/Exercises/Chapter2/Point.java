@@ -9,7 +9,7 @@ package com.NCCourses.Exercises.Chapter2;
 //methods so that they return new points with the results. For example,
 //Point p = new Point(3, 4).translate(1, 3).scale(0.5);
 //should set p to a point with coordinates (2, 3.5).
-public final class Point {
+public final class Point implements Cloneable{
     final private double x;
     final private double y;
 
@@ -37,6 +37,11 @@ public final class Point {
 
     public Point scale(double sc){
         return new Point(x * sc, y * sc);
+    }
+
+    @Override
+    public Point clone() throws CloneNotSupportedException {
+        return (Point)super.clone();
     }
 
     @Override
