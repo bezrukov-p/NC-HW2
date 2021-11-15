@@ -1,5 +1,6 @@
 package com.nccourses;
 
+import com.nccourses.exercises.chapter1.Chapter1;
 import com.nccourses.exercises.chapter3.Employee;
 import com.nccourses.exercises.chapter3.Measurable;
 

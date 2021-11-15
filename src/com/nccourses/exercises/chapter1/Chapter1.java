@@ -55,6 +55,10 @@ public class Chapter1 {
     //Write a program that computes the factorial n! = 1 × 2 × . . . × n, using
     //BigInteger. Compute the factorial of 1000.
     public static void ex6(int n){
+        if (n == 0) {
+            System.out.println("1");
+            return;
+        }
         BigInteger res = BigInteger.valueOf(n);
         while (--n > 0) {
             res = res.multiply(BigInteger.valueOf(n));
