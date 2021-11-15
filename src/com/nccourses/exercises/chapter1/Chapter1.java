@@ -1,4 +1,4 @@
-package com.NCCourses.Exercises.Chapter1;
+package com.nccourses.exercises.chapter1;
 
 import java.math.BigInteger;
 import java.util.*;

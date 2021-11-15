@@ -1,4 +1,4 @@
-package com.NCCourses.Exercises.Chapter2;
+package com.nccourses.exercises.chapter2;
 
 
 //Implement an immutable class Point that describes a point in the plane.

@@ -1,4 +1,4 @@
-package com.NCCourses.Exercises.Chapter2;
+package com.nccourses.exercises.chapter2;
 
 //Implement a class Car that models a car traveling along the x-axis, consuming
 //gas as it moves. Provide methods to drive by a given number of

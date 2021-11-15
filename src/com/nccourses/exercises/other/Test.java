@@ -1,12 +1,10 @@
-package com.NCCourses.Exercises.other;
+package com.nccourses.exercises.other;
 
-import com.NCCourses.Exercises.Chapter1.Chapter1;
-import com.NCCourses.Exercises.Chapter2.Car;
-import com.NCCourses.Exercises.Chapter2.Point;
-import com.NCCourses.Exercises.Chapter3.Employee;
-import com.NCCourses.Exercises.Chapter3.Measurable;
-import com.NCCourses.Exercises.Chapter4.Circle;
-import com.NCCourses.Exercises.Chapter4.Line;
+import com.nccourses.exercises.chapter1.Chapter1;
+import com.nccourses.exercises.chapter2.Car;
+import com.nccourses.exercises.chapter2.Point;
+import com.nccourses.exercises.chapter3.Employee;
+import com.nccourses.exercises.chapter3.Measurable;
 
 public class Test {
     public static void test(){

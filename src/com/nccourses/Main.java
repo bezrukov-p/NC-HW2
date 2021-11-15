@@ -1,12 +1,11 @@
-package com.NCCourses;
+package com.nccourses;
 
-import com.NCCourses.Exercises.Chapter3.Employee;
-import com.NCCourses.Exercises.Chapter3.Measurable;
-import com.NCCourses.Exercises.other.Test;
+import com.nccourses.exercises.chapter3.Employee;
+import com.nccourses.exercises.chapter3.Measurable;
 
 public class Main {
-    public static void main(String[] args){
-        Test.test();
+    public static void main(String[] args) throws CloneNotSupportedException {
+        //Test.test();
 
         Employee[] employees = new Employee[3];
         employees[0] = new Employee(1, "1", 100);
@@ -16,6 +15,5 @@ public class Main {
         Measurable empLargestSalary = Measurable.largest(employees);
         Employee e = (Employee) empLargestSalary;
         System.out.println(e.getName());
-
     }
 }

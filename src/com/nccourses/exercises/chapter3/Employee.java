@@ -1,4 +1,4 @@
-package com.NCCourses.Exercises.Chapter3;
+package com.nccourses.exercises.chapter3;
 
 public class Employee implements Measurable {
     private int id;

@@ -1,7 +1,7 @@
-package com.NCCourses.Exercises.Chapter4;
+package com.nccourses.exercises.chapter4;
 
 
-import com.NCCourses.Exercises.Chapter2.Point;
+import com.nccourses.exercises.chapter2.Point;
 
 //4. Define an abstract class Shape with an instance variable of class Point, a
 //constructor, a concrete method public void moveBy(double dx, double dy) that

@@ -1,6 +1,6 @@
-package com.NCCourses.Exercises.Chapter4;
+package com.nccourses.exercises.chapter4;
 
-import com.NCCourses.Exercises.Chapter2.Point;
+import com.nccourses.exercises.chapter2.Point;
 
 public class Rectangle extends Shape implements Cloneable{
     private double width;
