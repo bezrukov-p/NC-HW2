@@ -8,13 +8,13 @@ import com.nccourses.exercises.chapter3.Measurable;
 
 public class Test {
     public static void test(){
-        //Chapter1
-        Chapter1.ex1(10);
-        Chapter1.ex2(-1);
-        Chapter1.ex3(3, 1, 2);
-        Chapter1.ex4();
-        Chapter1.ex6(1000);
-        Chapter1.ex13();
+
+        Chapter1.toBOH(15);
+        Chapter1.rands();
+        System.out.println("normalize angle: " + Chapter1.normalize360(-10));
+        Chapter1.maxMinDouble();
+        System.out.println(Chapter1.factorial(1000));
+        System.out.println("################################");
 
         //Chapter2
         Car car = new Car(1, 10);
@@ -26,15 +26,17 @@ public class Test {
         car.move(1);
         System.out.println(car);
         System.out.println(new Point(3,4).translate(1,3).scale(0.5));
+        System.out.println("################################");
 
-        Employee[] arr = new Employee[3];
-        arr[0] = new Employee(1, "1", 100);
-        arr[1] = new Employee(2, "2", 200);
-        arr[2] = new Employee(3, "3", 300);
+        //chapter 3
+        Employee[] employees = new Employee[3];
+        employees[0] = new Employee(1, "1", 100);
+        employees[1] = new Employee(2, "2", 300);
+        employees[2] = new Employee(3, "3", 200);
 
-        System.out.println(Measurable.average(arr));
-
-        //chapter 4
-
+        Measurable empLargestSalary = Measurable.largest(employees);
+        Employee e = (Employee) empLargestSalary;
+        System.out.println(e.getName());
+        System.out.println("################################");
     }
 }
