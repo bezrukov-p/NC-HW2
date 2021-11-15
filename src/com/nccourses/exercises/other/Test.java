@@ -10,7 +10,7 @@ public class Test {
     public static void test(){
 
         Chapter1.toBOH(15);
-        Chapter1.rands();
+        Chapter1.lotteryCombination();
         System.out.println("normalize angle: " + Chapter1.normalize360(-10));
         Chapter1.maxMinDouble();
         System.out.println(Chapter1.factorial(1000));

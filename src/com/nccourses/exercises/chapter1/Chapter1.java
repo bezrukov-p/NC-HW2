@@ -78,7 +78,7 @@ public class Chapter1 {
     //numbers between 1 and 49. To pick six distinct numbers, start with an
     //array list filled with 1...49. Pick a random index and remove the element.
     //Repeat six times. Print the result in sorted order
-    public static void rands(){
+    public static void lotteryCombination(){
         List<Integer> result = new LinkedList<>();
         List<Integer> numbers = new LinkedList<>();
         for(int i = 1; i <= 49; i++)
